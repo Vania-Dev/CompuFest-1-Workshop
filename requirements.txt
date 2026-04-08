@@ -1,0 +1,7 @@
+langchain==1.2.15
+langchain-classic>=1.0.0
+langchain-community==0.4
+langchain-core==1.2.27
+langchain-ollama==1.0.1
+langgraph>=1.1.6
+deepagents>=0.5.1

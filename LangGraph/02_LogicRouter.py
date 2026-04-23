@@ -3,6 +3,9 @@
 # Interactive loop keeps the chatbot running until user types "salir"
 
 from typing import TypedDict
+from langchain_ollama import ChatOllama
+from langchain_core.prompts import ChatPromptTemplate
+from langgraph.graph import StateGraph, END, START
 
 
 # ── Estado ──────────────────────────────────────────────

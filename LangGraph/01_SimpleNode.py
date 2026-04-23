@@ -1,7 +1,9 @@
 # Defines a TypedDict State with text and response fields
 # Single "generate" node invokes the LLM and writes to state["response"]
 # set_entry_point and set_finish_point mark the only node as start and end
-
+from langchain_ollama import ChatOllama
+from langchain_core.prompts import PromptTemplate
+from langgraph.graph import StateGraph, END
 from typing import TypedDict
 
 # Definimos el modelo que vamos a usar
